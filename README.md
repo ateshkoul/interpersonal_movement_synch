@@ -1,2 +1,3 @@
 # interpersonal_movement_synch
-Code for interpersonal movement synchrony
+Code for analysis of interpersonal movement synchrony
+
