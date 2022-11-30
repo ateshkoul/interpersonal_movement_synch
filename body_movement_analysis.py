@@ -24,7 +24,7 @@ from pytorch_openpose.poses.pose_label import pose_label
 
 if __name__ == '__main__':
     # critical to keep this loading inside the main function otherwise it loads multiple processes
-#    import modin.pandas as pd
+
     import pandas as pd
 
     root_dir = 'D:\\iannettilab_dropbox\\Dropbox\\Koul_Atesh\\IBS\\'
@@ -39,7 +39,7 @@ if __name__ == '__main__':
     
 
 
-    conditions = ['FaNoOcc_1','FaNoOcc_2','FaNoOcc_3','NeNoOcc_1','NeNoOcc_2','NeNoOcc_3']
+    conditions = ['FaNoOcc_1','FaNoOcc_2','FaNoOcc_3','NeNoOcc_1','NeNoOcc_2','NeNoOcc_3','FaOcc_1','FaOcc_2','FaOcc_3','NeOcc_1','NeOcc_2','NeOcc_3']
 
     landmark_types = ['body']
 
